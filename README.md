@@ -7,8 +7,10 @@ which is why it is public: update checks are unauthenticated.
 
 Downloads are on the [Releases](../../releases) page.
 
-The desktop app is a thin client. It loads `https://haloagent.tech` and keeps the
-native pieces — tray, notifications, dictation, auto-update — so desktop and
-mobile are the same session rather than two copies of one that drift.
+The desktop app is **HALO Local**: the full agent harness running on your own
+computer with your own engines and keys, free. Connecting it to a hosted
+workspace at haloagent.tech is a setting, not a requirement.
+
+Windows installers are currently unsigned — SmartScreen warns on first run.
 
 Issues and source live in the main repository, not here.
